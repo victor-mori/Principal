@@ -1,0 +1,50 @@
+/* Background */
+
+body {
+    background-color: aliceblue;
+    background-image: 
+        linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), /* Cor da sobreposição com transparência */
+        url(imagens/fundo.jpg);;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Navbar */
+
+.navbar-brand {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 85px;
+}
+
+.navbar-item {
+    margin: 2%;
+}
+
+span {
+    margin-top: auto;
+}
+
+.logo {
+    transform: scale(2);
+    margin: 25%;
+}
+
+.navbar-burger {
+    display: block;
+    margin-left: auto;
+}
+
+.navbar-burger span {
+    background-color: white;
+    /* Ajuste para a cor que preferir */
+}
+
+/* Input */
+
+.field {
+    appearance: none;
+}
